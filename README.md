@@ -1,4 +1,4 @@
-Utilities that simplify the process of building and delivering Atom feeds based on collections of objects.
+Helpers that integrate [feedbuilder](https://github.com/bcm/feedbuilder) into Rails.
 
 ## Usage
 
