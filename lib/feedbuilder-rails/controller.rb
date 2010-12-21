@@ -7,6 +7,10 @@ module FeedBuilder
           send_data(feed.to_xml, :filename => filename, :type => :atom, :disposition => 'inline')
         end
       end
+
+      def feed_url_builder(*args)
+        FeedBuilder::UrlBuilder.new(*args)
+      end
     end
   end
 end
