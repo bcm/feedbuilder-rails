@@ -41,6 +41,10 @@ Helpers that integrate [feedbuilder](https://github.com/bcm/feedbuilder) into Ra
       end
     end
 
+## To do
+
+* Provide a custom renderer
+
 ## Copyright
 
 Copyright (c) 2010 Brian Moseley. See LICENSE for details.
