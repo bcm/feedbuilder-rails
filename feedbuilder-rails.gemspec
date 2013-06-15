@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "feedbuilder-rails"
 
-  s.add_dependency 'actionpack', '~> 3.1'
-  s.add_dependency 'activerecord', '~> 3.1'
+  s.add_dependency 'actionpack', '>= 3.1.0'
+  s.add_dependency 'activerecord', '>= 3.1.0'
   s.add_dependency 'feedbuilder'
 
   s.files         = `git ls-files`.split("\n")
